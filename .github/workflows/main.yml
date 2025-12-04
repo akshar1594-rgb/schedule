@@ -5,10 +5,10 @@ on:
       - cron: "0 0 * * *"
 
 jobs:
-      run-scripts:
+     run-scripts:
       runs-on: ubuntu - latest
 
  steps:
-       -name: Print message 
+      -name: Print message 
         run: echo "schedule workflow exce"
         
